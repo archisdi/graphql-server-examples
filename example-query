@@ -1,0 +1,14 @@
+{
+    apple: company(id: "1") {
+        ...companyDetail
+    },
+    samsung: company(id: "2") {
+        ...companyDetail
+    }
+}
+
+fragment companyDetail on Company {
+    id,
+    name,
+    description
+}
