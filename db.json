@@ -1,7 +1,11 @@
 {
     "users": [
-        { "id": "1", "firstName": "archie", "age": 23 },
-        { "id": "2", "firstName": "lia", "age": 24 },
-        { "id": "3", "firstName": "angel", "age": 20 }
+        { "id": "1", "firstName": "archie", "age": 23, "companyId": "1" },
+        { "id": "2", "firstName": "lia", "age": 24, "companyId": "1" },
+        { "id": "3", "firstName": "angel", "age": 20, "companyId": "2" }
+    ],
+    "companies": [
+        { "id": "1", "name": "Apple", "description": "-" },
+        { "id": "2", "name": "Samsung", "description": "-" }
     ]
 }
